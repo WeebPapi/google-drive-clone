@@ -181,7 +181,7 @@ const getFileIcon = (type: string) => {
   }
 };
 
-export default function page() {
+export default function Page() {
   const [currentPath, setCurrentPath] = useState<string[]>(["My Drive"]);
   const [currentItems, setCurrentItems] = useState<FileItem[]>(mockData);
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
